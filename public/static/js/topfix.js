@@ -12,8 +12,8 @@ if(ScrollTrigger.isTouch !==1){
     opacity: 0,
     scrollTrigger: {
       trigger: '.hero-section',
-      start: 'center',
-      end: '820',
+      start: 'bottom',
+      end: '1100',
       scrub: true
     }
   })
