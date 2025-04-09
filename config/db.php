@@ -5,6 +5,7 @@ define('DB_NAME', 'news'); // Имя базы данных
 define('DB_USER', 'root');      // Имя пользователя базы данных
 define('DB_PASS', '');            // Пароль пользователя
 
+
 try {
 
     $pdo = new PDO("mysql:host=" . DB_HOST . ";dbname=" . DB_NAME . ";charset=utf8", DB_USER, DB_PASS);
