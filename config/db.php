@@ -1,9 +1,9 @@
 <?php
 // Настройки базы данных
-define('DB_HOST', 'MariaDB-11.2');   // Адрес сервера базы данных, обычно 'localhost'
-define('DB_NAME', 'news'); // Имя базы данных
-define('DB_USER', 'root');      // Имя пользователя базы данных
-define('DB_PASS', '');            // Пароль пользователя
+define('DB_HOST', 'MariaDB-11.2');
+define('DB_NAME', 'news');
+define('DB_USER', 'root');
+define('DB_PASS', '');
 
 
 try {
